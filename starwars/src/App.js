@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
-// import axios from "axios";
+import {reactstrap} from "react"
+import axios from "axios";
 import './App.css';
 
 const App = () => {
@@ -8,10 +9,10 @@ const App = () => {
 const [character, setCharacter] = useState({});
 
 useEffect(() => {
-  fetch('https://swapi.co/api/')
+  axios.get('https://swapi.co/api/people')
       .then( res => {
         setCharacter(character.people);
-        console.log(res)
+        console.log(res.data.results);
       })
       .catch(err => console.log(err.message));
 }, []);
