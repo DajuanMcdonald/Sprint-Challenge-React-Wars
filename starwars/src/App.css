@@ -6,3 +6,16 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.test {
+  color: #ffffff;
+
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px dotted;
+  padding: 3%;
+
+
+
+}
