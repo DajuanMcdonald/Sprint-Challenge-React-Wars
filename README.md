@@ -29,8 +29,8 @@ class and from your personal research on the web.
 
 ## ReactJS makes the problems of creating a stateful User Interface simpler by providing component based data
 ## and a way to keep track of state and props through JavaScript. I've learned more about DOM manipulation using
-## ReactJS. ReactJS helped me developer a UI faster than possible from scratch. In short, ReacJS is a widely supported
-## Javascript Library designed for FrontEnd web Development.
+## ReactJS. ReactJS helped me developer a UI faster than possible from scratch. ReactJJS is a widely supported
+## Javascript Library often used with Reactstrap for designed FrontEnd Web Development.
 
 - [x] What does it mean to _think_ in react?
 ## To 'think' in react means to consider which components are needed, how they should be structured,
