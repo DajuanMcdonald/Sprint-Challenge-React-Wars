@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
+// import ReactWarCard from "./components/Cards";
 import axios from "axios";
+
 import "./App.css";
 
 /**
@@ -19,7 +21,7 @@ function App() {
         axios.get('https://swapi.co/api/people/')
             .then((res) => {
                 setswCharacter(res.data.results);
-                console.log(res.data.results[1].name)
+                console.log(res.data.next)
             }).catch((err) => {
             console.log(err.message)
         })
@@ -32,7 +34,8 @@ function App() {
         <div className = "App" >
         <h1> React Wars </h1>
         <div>
-        {test.map( name => { return <p>{name}</p>})}
+        {test.map( next => { return <button>{next}</button>})}
+        {/*<ReactWarCard/>*/}
 
         </div>
         </div>
