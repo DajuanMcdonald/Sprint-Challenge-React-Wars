@@ -5,14 +5,14 @@ import styled from "styled-components";
 const Wrapper = styled.div`
 display: flex;
 //flex-direction: column;
+justify-content: center;
 flex-wrap: wrap;
 height: auto;
 border: 1px solid;
 `;
+
 function AddCards(props) {
-    const {swCharacter} = props;
-
-
+    
     return (
 
 
