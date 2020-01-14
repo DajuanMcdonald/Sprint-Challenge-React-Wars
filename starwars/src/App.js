@@ -1,12 +1,8 @@
 import React, {useState, useEffect} from "react";
-// import ReactWarCard from "./components/Cards";
 import axios from "axios";
-import Button from "@material-ui/core/Button";
-import Card from "@material-ui/core/Card";
-// import {CardHeader} from "@material-ui/core";
-// import styled from "styled-components";
-
-import "./App.css";
+import { Button } from "reactstrap";
+import "./App.scss";
+import AddCards from "./components/Cards";
 
 /**
  Try to think through what state you'll need for this app before starting.
@@ -14,8 +10,7 @@ import "./App.css";
  *
  */
 function App() {
-    const [swCharactr, setswCharacter] = useState([]);
-    const [swNext, setswNext] = useState([]);
+    const [swCharacter, setswCharacter] = useState([]);
 
     //Characters
     useEffect(() => {
@@ -28,47 +23,28 @@ function App() {
             .then((res) => {
                 setswCharacter(res.data.results);
 
-                console.log('useEffect(people) 1', res.data.results.map( name => {return name}));
-                console.log();
+
+                console.log('useEffect(people) 1', res.data.results.map( name =>  name));
+                console.log(res.data.next);
             }).catch((err) => {
             console.log(err.message)
         })
 
     }, []);
 
-   // Next info
-   useEffect(() => {
-       axios.get('https://swapi.co/api/planets')
-           .then((res) => {
-               setswNext(res.data.results);
-               console.log('useEffect(planets) 2', res.data.results)})
-           .catch((err) => console.log(err.message))
-
-   }, []);
-
-
     return (
         <div className = "App" >
         <h1> React Wars </h1>
             <div>
 
-            {
-            swNext.map( info => { return <Button variant="outlined" color="secondary">{info.name}</Button>})
-            }
+
+
+
             </div>
-            <Card variant="outlined">
 
-
-            {
-                swCharactr.map( name => { return <ul><li disabled>{name.name}</li></ul>})
-            }
-
-
-            </Card>
 
         <div>
-
-
+            <AddCards data={swCharacter}/>
 
         </div>
         </div>

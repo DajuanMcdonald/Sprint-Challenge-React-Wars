@@ -7,6 +7,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1WE6Yo84k7efiq3jpj4E8xM4YG0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,6 +25,8 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -43,22 +51,26 @@
       <option name="presentableId" value="Default" />
       <updated>1578702456132</updated>
       <workItem from="1578702459678" duration="11239000" />
-      <workItem from="1578731290605" duration="7679000" />
+      <workItem from="1578731290605" duration="20730000" />
+      <workItem from="1578863723632" duration="8012000" />
+      <workItem from="1578876015766" duration="540000" />
+      <workItem from="1578878436826" duration="2016000" />
+      <workItem from="1578884023207" duration="1537000" />
+      <workItem from="1578967593341" duration="4330000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/starwars/src/App.js</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="WindowStateProjectService">
+    <state x="145" y="27" key="SettingsEditor" timestamp="1578873794384">
+      <screen x="0" y="0" width="1288" height="768" />
+    </state>
+    <state x="145" y="27" key="SettingsEditor/0.0.1288.768@0.0.1288.768" timestamp="1578873794384" />
+    <state x="306" y="166" key="run.anything.popup" timestamp="1578824145364">
+      <screen x="0" y="0" width="1288" height="768" />
+    </state>
+    <state x="306" y="166" key="run.anything.popup/0.0.1288.768@0.0.1288.768" timestamp="1578824145364" />
   </component>
 </project>

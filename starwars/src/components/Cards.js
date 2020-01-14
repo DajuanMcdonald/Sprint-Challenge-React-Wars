@@ -1,22 +1,23 @@
-import React, {useState, useEffect} from "react";
-import { CardText, CardTitle, CardBody, Card, CardHeader, CardFooter } from "reactstrap";
+import React from "react";
+import {Card} from "reactstrap";
 
-function StarWarCard() {
+function AddCards(props) {
+
+    return (
+        <div>
+            <h1>Title Here</h1>
+            <h2>Name:  </h2>
+
+            <h2>Height: </h2>
+
+            <h2>Gender: </h2>
+
+            <a href="">Home Town: </a>
+        </div>
 
 
-return (
-    <div>
-        <Card>
-            <CardTitle>{}</CardTitle>
 
-            <CardBody>
-                <CardHeader/>
-                    <CardText/>
-                <CardFooter/>
-            </CardBody>
-        </Card>
-    </div>
     )
 }
 
-export default StarWarCard;
+export default AddCards;
