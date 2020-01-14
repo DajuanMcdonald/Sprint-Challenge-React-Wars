@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-import { Button } from "reactstrap";
+
 import "./App.scss";
 import AddCards from "./components/Cards";
 
@@ -23,9 +23,6 @@ function App() {
             .then((res) => {
                 setswCharacter(res.data.results);
 
-
-                console.log('useEffect(people) 1', res.data.results.map( name =>  name));
-                console.log(res.data.next);
             }).catch((err) => {
             console.log(err.message)
         })
@@ -44,7 +41,17 @@ function App() {
 
 
         <div>
-            <AddCards data={swCharacter}/>
+            {
+                swCharacter.map((name) => {
+
+                    return (
+
+                        <AddCards data={name} />
+                        )
+                }
+
+                 )}
+
 
         </div>
         </div>
