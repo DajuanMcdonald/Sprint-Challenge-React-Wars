@@ -35,11 +35,11 @@ function App() {
 
         <div>
                 {
-                    swCharacter.map((name) => {
+                    swCharacter.map((name, id) => {
 
                         return (
 
-                            <AddCards data={name} />
+                            <AddCards data={name} key={id} />
                         )
                 }
 
