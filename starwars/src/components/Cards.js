@@ -1,6 +1,7 @@
 import React from "react";
 import {Card, CardTitle, CardText, CardLink} from "reactstrap";
 import styled from "styled-components";
+import SetCar from "./Cars";
 
 const Wrapper = styled.div`
 
@@ -28,7 +29,9 @@ function AddCards(props) {
 
             <CardTitle style = {{fontWeight: 'bold'}}> Player: {props.data.name} </CardTitle>
 
-            {/*<CardText>Name: {props.data.name} </CardText>*/}
+            <CardText> Player Vehicle: {props.data.name} </CardText>
+
+
 
             <CardText>Height: {props.data.height} 'inches </CardText>
 
@@ -37,7 +40,10 @@ function AddCards(props) {
             <CardText>DOB: {props.data.birth_year}</CardText>
 
             <CardLink style = {{ textDecoration: 'none'}} href={props.data.homeworld}>Home Town: </CardLink>
+
+
         </Card>
+            <SetCar data={props.data.name}/>...
         </Wrapper>
 
     )
