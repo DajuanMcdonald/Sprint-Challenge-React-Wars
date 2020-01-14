@@ -33,7 +33,7 @@ function App() {
         <div className = "App" >
         <h1> React Wars </h1>
 
-        <div>
+            <div>
                 {
                     swCharacter.map((name, id) => {
 
@@ -41,14 +41,12 @@ function App() {
 
                             <AddCards data={name} key={id} />
                         )
+                    })
                 }
-
-                       )}
-
-
+            </div>
         </div>
-        </div>
-)
+    )
+
 }
 
 
