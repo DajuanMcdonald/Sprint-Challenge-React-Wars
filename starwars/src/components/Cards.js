@@ -26,9 +26,9 @@ function AddCards(props) {
         <Card style = {{ color: 'black', backgroundColor: '#1023', margin: '5%', width: '300px', border: '1px' +
                 ' solid', borderRadius: '4px', boxShadow: '2px 5px'}}>
 
-            <CardTitle style = {{fontWeight: 'bold'}}> Player Card </CardTitle>
+            <CardTitle style = {{fontWeight: 'bold'}}> Player: {props.data.name} </CardTitle>
 
-            <CardText>Name: {props.data.name} </CardText>
+            {/*<CardText>Name: {props.data.name} </CardText>*/}
 
             <CardText>Height: {props.data.height} 'inches </CardText>
 
