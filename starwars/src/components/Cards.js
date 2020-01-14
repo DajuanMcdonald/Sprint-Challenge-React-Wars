@@ -3,12 +3,13 @@ import {Card, CardTitle, CardText, CardLink} from "reactstrap";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
+
 display: flex;
-//flex-direction: column;
 justify-content: center;
 flex-wrap: wrap;
 height: auto;
 border: 1px solid;
+background-color: #1222;
 `;
 
 function AddCards(props) {

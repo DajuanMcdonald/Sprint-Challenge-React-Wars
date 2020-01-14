@@ -32,25 +32,18 @@ function App() {
     return (
         <div className = "App" >
         <h1> React Wars </h1>
-            <div>
-
-
-
-
-            </div>
-
 
         <div>
-            {
-                swCharacter.map((name) => {
+                {
+                    swCharacter.map((name) => {
 
-                    return (
+                        return (
 
-                        <AddCards data={name} />
+                            <AddCards data={name} />
                         )
                 }
 
-                 )}
+                       )}
 
 
         </div>
