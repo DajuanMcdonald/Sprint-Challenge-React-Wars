@@ -20,7 +20,7 @@ function AddCards(props) {
 
         <Wrapper>
 
-        <Card body style = {{ backgroundColor: '#1023', margin: '5%', width: '300px', border: '1px solid'}}>
+        <Card body style = {{ backgroundColor: '#1023', margin: '5%', width: '300px', border: '1px solid', borderRadius: '4px'}}>
 
             <CardTitle body style = {{fontWeight: 'bold'}}> Player Card </CardTitle>
             <CardText>Name: {props.data.name} </CardText>
