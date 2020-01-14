@@ -12,14 +12,14 @@ border: 1px solid;
 `;
 
 function AddCards(props) {
-    
+
     return (
 
 
 
         <Wrapper>
 
-        <Card body style = {{ margin: '5%', width: '300px', border: '1px solid'}}>
+        <Card body style = {{ backgroundColor: '#1023', margin: '5%', width: '300px', border: '1px solid'}}>
 
             <CardTitle body style = {{fontWeight: 'bold'}}> Player Card </CardTitle>
             <CardText>Name: {props.data.name} </CardText>
@@ -31,7 +31,9 @@ function AddCards(props) {
 
             <CardText>Gender: {props.data.gender} </CardText>
 
-            <CardLink href={props.data.homeworld}>Home Town: </CardLink>
+            <CardText>DOB: {props.data.birth_year}</CardText>
+
+            <CardLink body style = {{ textDecoration: 'none', color: 'red'}} href={props.data.homeworld}>Home Town: </CardLink>
         </Card>
         </Wrapper>
 
