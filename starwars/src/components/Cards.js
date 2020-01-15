@@ -1,11 +1,11 @@
 import React from "react";
-import {Card, CardTitle, CardText, CardLink} from "reactstrap";
+import {Card, CardTitle} from "reactstrap";
 import styled from "styled-components";
-import SetCar from "./Cars";
+// import SetCar from "./Cars";
 
 const Wrapper = styled.div`
 
-display: flex;
+display: inline-block;
 
 justify-content: center;
 flex-wrap: wrap;
@@ -14,6 +14,7 @@ width: 400px;
 border: 1px solid;
 background-color: #1222;
 margin: 2%;
+
 `;
 
 function AddCards(props) {
@@ -22,28 +23,19 @@ function AddCards(props) {
 
 
 
-        <Wrapper>
+       <Wrapper>
 
         <Card style = {{ color: 'black', backgroundColor: '#1023', margin: '5%', width: '300px', border: '1px' +
                 ' solid', borderRadius: '4px', boxShadow: '2px 5px'}}>
 
-            <CardTitle style = {{fontWeight: 'bold'}}> Player: {props.data.name} </CardTitle>
-
-            <CardText> Player Vehicle: {props.data.name} </CardText>
+            <CardTitle style = {{fontWeight: 'bold'}}>{props.data.name} </CardTitle>
 
 
 
-            <CardText>Height: {props.data.height} 'inches </CardText>
-
-            <CardText>Gender: {props.data.gender} </CardText>
-
-            <CardText>DOB: {props.data.birth_year}</CardText>
-
-            <CardLink style = {{ textDecoration: 'none'}} href={props.data.homeworld}>Home Town: </CardLink>
 
 
         </Card>
-            <SetCar data={props.data.name}/>...
+
         </Wrapper>
 
     )

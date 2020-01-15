@@ -1,19 +1,28 @@
-import React, {useState, useEffect} from "react";
-import styled from "styled-components";
+import React from "react";
 
-const Container = styled.div`
-border-bottom-color: lightslategray;
-
-`;
 
 export default function Player(props) {
 
+
+
     return (
         <div>
-            <Container>
-                <p>{props.data.name}</p>
-            </Container>
+           <div className="name-wrapper">
+               <div className="image-wrapper">
+                   <img src="" alt=""/>
+               </div>
 
+           </div>
         </div>
     )
 }
+
+/*
+
+Use the className of the classes mentioned in index.css/styles.css
+
+React Router goes inside index.js
+
+
+function Example() {const  items.find(item =>  ); return ()}
+ */
