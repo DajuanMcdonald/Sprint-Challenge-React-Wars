@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6ee20cb-5b62-438d-b7f7-4bd9a64f3b53" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1WE6Yo84k7efiq3jpj4E8xM4YG0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6ee20cb-5b62-438d-b7f7-4bd9a64f3b53" name="Default Changelist" comment="" />
+      <created>1578702456132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578702456132</updated>
+      <workItem from="1578702459678" duration="11239000" />
+      <workItem from="1578731290605" duration="20730000" />
+      <workItem from="1578863723632" duration="8012000" />
+      <workItem from="1578876015766" duration="540000" />
+      <workItem from="1578878436826" duration="2016000" />
+      <workItem from="1578884023207" duration="1537000" />
+      <workItem from="1578967593341" duration="11074000" />
+      <workItem from="1579016811637" duration="12212000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="145" y="27" key="SettingsEditor" timestamp="1578873794384">
+      <screen x="0" y="0" width="1288" height="768" />
+    </state>
+    <state x="145" y="27" key="SettingsEditor/0.0.1288.768@0.0.1288.768" timestamp="1578873794384" />
+    <state x="306" y="166" key="run.anything.popup" timestamp="1579019238677">
+      <screen x="0" y="0" width="1288" height="768" />
+    </state>
+    <state x="306" y="166" key="run.anything.popup/0.0.1288.768@0.0.1288.768" timestamp="1579019238677" />
+    <state x="307" y="89" key="search.everywhere.popup" timestamp="1579029442812">
+      <screen x="0" y="0" width="1288" height="768" />
+    </state>
+    <state x="307" y="89" key="search.everywhere.popup/0.0.1288.768@0.0.1288.768" timestamp="1579029442812" />
+  </component>
+</project>
